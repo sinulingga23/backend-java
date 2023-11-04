@@ -38,6 +38,8 @@ public class Main {
 
             entityManager.getTransaction().commit();
             entityManager.close();;
+
+            entityManagerFactory.close();
         }
     }
 }
