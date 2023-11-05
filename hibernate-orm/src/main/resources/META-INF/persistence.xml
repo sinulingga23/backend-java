@@ -15,6 +15,7 @@
         </description>
 
         <class>org.sinulingga.entity.Category</class>
+        <class>org.sinulingga.entity.Product</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" />
